@@ -1,12 +1,12 @@
-NTUBoodingMaker
+# NTUBoodingMaker
 [![Build Status](https://travis-ci.org/berkeley-abc/abc.svg?branch=master)](https://travis-ci.org/berkeley-abc/abc)
 [![Build status](https://ci.appveyor.com/api/projects/status/7q8gopidgvyos00d?svg=true)](https://ci.appveyor.com/project/berkeley-abc/abc)
 
-# ABC: System for Sequential Logic Synthesis and Formal Verification
+## Cite ABC: System for Sequential Logic Synthesis and Formal Verification
 
 ABC is always changing but the current snapshot is believed to be stable. 
 
-## Compiling:
+### Compiling:
 
 To compile ABC as a binary, download and unzip the code, then type `make`.
 To compile ABC as a static library, type `make libabc.a`.
@@ -48,7 +48,7 @@ or in the batch mode:
     i10          : i/o =  257/  224  lat =    0  and =   1851  lev = 35
     Networks are equivalent.
 
-## Compiling as C or C++
+### Compiling as C or C++
 
 The current version of ABC can be compiled with C compiler or C++ compiler.
 
@@ -57,14 +57,14 @@ The current version of ABC can be compiled with C compiler or C++ compiler.
  * To compile as C++ code with namespaces: make sure that `CC=g++` and `ABC_NAMESPACE` is set to
    the name of the requested namespace. For example, add `-DABC_NAMESPACE=xxx` to OPTFLAGS.
 
-## Building a shared library
+### Building a shared library
 
  * Compile the code as position-independent by adding `ABC_USE_PIC=1`.
  * Build the `libabc.so` target: 
  
      make ABC_USE_PIC=1 libabc.so
 
-## Bug reporting:
+### Bug reporting:
 
 Please try to reproduce all the reported bugs and unexpected features using the latest 
 version of ABC available from https://github.com/berkeley-abc/abc
@@ -78,7 +78,7 @@ If the bug still persists, please provide the following information:
  1. Versions of relevant tools or packages used.
 
 
-## Troubleshooting:
+### Troubleshooting:
 
  1. If compilation does not start because of the cyclic dependency check, 
 try touching all files as follows: `find ./ -type f -exec touch "{}" \;`
@@ -105,7 +105,7 @@ add these steps in the readme to help folks compiling this on Solaris."
 The following tutorial is kindly offered by Ana Petkovska from EPFL:
 https://www.dropbox.com/s/qrl9svlf0ylxy8p/ABC_GettingStarted.pdf
 
-## Final remarks:
+### Final remarks:
 
 Unfortunately, there is no comprehensive regression test. Good luck!                                
 
