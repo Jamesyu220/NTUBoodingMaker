@@ -3,13 +3,15 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/7q8gopidgvyos00d?svg=true)](https://ci.appveyor.com/project/berkeley-abc/abc)
 
 ## How to get start
-git clone https://github.com/Jamesyu220/NTUBoodingMaker.git
+    [...]
+    git clone https://github.com/Jamesyu220/NTUBoodingMaker.git
 
 ## How to edit
-* git pull origin main
-* git add .
-* git commit -m "..."
-* git push origin main
+    [...] 
+    git pull origin main
+    git add .
+    git commit -m "..."
+    git push origin main
 
 ## Cite ABC: System for Sequential Logic Synthesis and Formal Verification
 
