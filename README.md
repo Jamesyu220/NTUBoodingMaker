@@ -2,6 +2,15 @@
 [![Build Status](https://travis-ci.org/berkeley-abc/abc.svg?branch=master)](https://travis-ci.org/berkeley-abc/abc)
 [![Build status](https://ci.appveyor.com/api/projects/status/7q8gopidgvyos00d?svg=true)](https://ci.appveyor.com/project/berkeley-abc/abc)
 
+## How to get start
+git clone https://github.com/Jamesyu220/NTUBoodingMaker.git
+
+## How to edit
+* git pull origin main
+* git add .
+* git commit -m "..."
+* git push origin main
+
 ## Cite ABC: System for Sequential Logic Synthesis and Formal Verification
 
 ABC is always changing but the current snapshot is believed to be stable. 
